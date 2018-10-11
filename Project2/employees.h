@@ -10,7 +10,7 @@ class employees
 	double rate;
 	int year; 
 public:
-	employees(string n, char d, double s);
+	employees(string n, char d, double s , int y);
 	employees();
 	void readEmployeeData();
 	void raiseInSalary();
