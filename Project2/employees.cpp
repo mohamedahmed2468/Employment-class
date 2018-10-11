@@ -3,8 +3,8 @@
 
 
 
-employees::employees(string n, char d, double s) {
-	name = n, salary = s, dep = d;
+employees::employees(string n, char d, double s , int y) {
+	name = n, salary = s, dep = d , year=y;
 	rate = 0.2;
 }
 
